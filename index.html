@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número Aleatório</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+</head>
+<body>
+    
+    <header>
+        <h1>Dungeons & Dragons</h1>
+    <nav>
+        <p>Clique abaixo para saber mais sobre algumas classes do DnD!</p>
+        <a href="fighter.html">Lutador</a>
+        <a href="bard.html">Bardo</a>
+        <a href="rogue">Rogue</a>
+    </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+            <p>Dungeons & Dragons (abreviado como D&D ou DnD) é um jogo de interpretação de papéis de mesa de fantasia, criado por Gary Gygax e Dave Arneson. Publicado inicialmente em 1974 pela Tactical Studies Rules (TSR), passou a ser editado pela Wizards of the Coast em 1997; esta foi adquirida pela Hasbro em 1999. O jogo derivou dos jogos de guerra com miniaturas, em particular de uma adaptação das regras de Chainmail, de 1971. Sua publicação é geralmente considerada o início dos RPGs modernos e de sua indústria, com influência também sobre os jogos eletrônicos, sobretudo os RPGs eletrônicos</p>
+            <p>Em lugar de uma formação militar, cada jogador controla um personagem que participa de aventuras em um mundo fantástico. Um participante assume a função de mestre, chamado no original de Dungeon Master (DM): apresenta o cenário, arbitra as regras, narra as consequências das ações e interpreta os personagens não jogadores (PNJs). Os aventureiros formam um grupo, exploram lugares, enfrentam adversários, resolvem problemas e procuram tesouros e conhecimentos. Ao longo das sessões, acumulam pontos de experiência e avançam de nível, adquirindo capacidades ligadas às suas classes.</p>
+            </article>
+        </section>
+        <section>
+            <h2>Mecânicas</h2>
+            <article>
+            <p>Antes de começar, cada jogador cria um personagem e registra seus dados na ficha. Os seis atributos são Força, Destreza, Constituição, Inteligência, Sabedoria e Carisma. Seus métodos de determinação variam entre edições. O jogador também escolhe uma espécie — denominada "raça" nas regras anteriores à revisão de 2024 —, uma classe, um alinhamento e características que compõem suas capacidades e sua história pessoal.</p>
+            <p>Durante a sessão, os jogadores descrevem as ações pretendidas, e o mestre apresenta os resultados. Ações triviais, como apanhar uma carta ou abrir uma porta destrancada, normalmente dispensam testes; escalar um precipício ou abrir uma fechadura pode exigir uma rolagem. O d20 é empregado em testes e ataques, enquanto dados de quatro, seis, oito, dez ou doze faces podem determinar o dano. Atributos, perícias e dificuldade influem no resultado. Testes de resistência permitem evitar ou reduzir consequências como armadilhas e efeitos mágicos; suas probabilidades dependem das características e da edição usada. Em testes de tarefa, o resultado, acrescido dos modificadores pertinentes, deve alcançar ou superar uma classe de dificuldade.</p>
+            </article>
+            <figure>
+            <img src="./img/Dice.png" alt="Dado" wdith="200px">
+            </figure>
+        </section>
+    </main>
+    <footer>
+    <h2>Rolagem de um dado 1d20:</h2>
+    <h1>Número sorteado: <span id="resultado"></span></h1>
+    <button onclick="gerarNumero()">Gerar Número</button>
+    <audio id="som">
+        <source src="./sound/dado.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <p class="font-bold">oi</p>
+
+
+
+    
+    
+    <script src="./main.js/func.js">
+    </script>
+
+    
+    </footer>
+
+
+
+</body>
+</html>
