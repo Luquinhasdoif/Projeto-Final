@@ -1,63 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Número Aleatório</title>
-    <link href="./src/output.css" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
-</head>
-<body>
-    
-    <header>
-        <h1>Dungeons & Dragons</h1>
-    <nav>
-        <p>Clique abaixo para saber mais sobre algumas classes do DnD!</p>
-        <a href="fighter.html">Lutador</a>
-        <a href="bard.html">Bardo</a>
-        <a href="rogue.html">Rogue</a>
-    </nav>
-    </header>
-    <main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dungeon and Dragons</title>
+    <link href="./src/output.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png" />
+  </head>
+  <body>
+    <div class="bg-gray-950">
+      <header>
+        <div class="mb-1 rounded-b-lg border-gray-950/55 bg-gray-800 shadow-2xl outline-2 outline-white">
+          <img src="./img/logo.png" alt="o" class="flex h-32 justify-center p-5" />
+        </div>
+        <nav>
+          <h1 class="flex justify-center text-2xl font-extrabold tracking-widest text-white">Classes</h1>
+          <div class="mt-1 flex h-20 flex-row justify-evenly flex-nowrap">
+            <img src="./img/fighter.png" class="h-32 w-52" />
+            <img src="./img/bardo.png" class="h-32 w-52" />
+            <img src="./img/rogue.png" class="h-32 w-52" />
+          </div>
+          <div class="m-3 flex justify-around p-9 font-mono font-extrabold tracking-widest text-white">
+            <a class="mt-4 cursor-pointer rounded-sm border bg-blue-500 pr-2 pl-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:bg-indigo-500" href="./html/fighter.html">Lutador</a>
+            <a class="mt-4 cursor-pointer rounded-sm border bg-blue-500 pr-2 pl-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:bg-indigo-500" href="./html/bard.html">Bardo</a>
+            <a class="mt-4 cursor-pointer rounded-sm border bg-blue-500 pr-2 pl-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:bg-indigo-500" href="./html/rogue.html" class="">Rogue</a>
+          </div>
+        </nav>
+      </header>
+      <main>
         <section>
-            <article>
-            <p>Dungeons & Dragons (abreviado como D&D ou DnD) é um jogo de interpretação de papéis de mesa de fantasia, criado por Gary Gygax e Dave Arneson. Publicado inicialmente em 1974 pela Tactical Studies Rules (TSR), passou a ser editado pela Wizards of the Coast em 1997; esta foi adquirida pela Hasbro em 1999. O jogo derivou dos jogos de guerra com miniaturas, em particular de uma adaptação das regras de Chainmail, de 1971. Sua publicação é geralmente considerada o início dos RPGs modernos e de sua indústria, com influência também sobre os jogos eletrônicos, sobretudo os RPGs eletrônicos</p>
-            <p>Em lugar de uma formação militar, cada jogador controla um personagem que participa de aventuras em um mundo fantástico. Um participante assume a função de mestre, chamado no original de Dungeon Master (DM): apresenta o cenário, arbitra as regras, narra as consequências das ações e interpreta os personagens não jogadores (PNJs). Os aventureiros formam um grupo, exploram lugares, enfrentam adversários, resolvem problemas e procuram tesouros e conhecimentos. Ao longo das sessões, acumulam pontos de experiência e avançam de nível, adquirindo capacidades ligadas às suas classes.</p>
-            </article>
+          <article class="mr-4 ml-4">
+            <div class="rounded-lg border-6 border-gray-950/55 bg-gray-800 p-2 text-base/7 font-extralight text-white subpixel-antialiased shadow-2xl/30 outline-2 outline-offset-2">
+              <p>Dungeons & Dragons (abreviado como D&D ou DnD) é um jogo de interpretação de papéis de mesa de fantasia, criado por Gary Gygax e Dave Arneson. Publicado inicialmente em 1974 pela Tactical Studies Rules (TSR), passou a ser editado pela Wizards of the Coast em 1997; esta foi adquirida pela Hasbro em 1999. O jogo derivou dos jogos de guerra com miniaturas, em particular de uma adaptação das regras de Chainmail, de 1971. Sua publicação é geralmente considerada o início dos RPGs modernos e de sua indústria, com influência também sobre os jogos eletrônicos, sobretudo os RPGs eletrônicos</p>
+              <p>Em lugar de uma formação militar, cada jogador controla um personagem que participa de aventuras em um mundo fantástico. Um participante assume a função de mestre, chamado no original de Dungeon Master (DM): apresenta o cenário, arbitra as regras, narra as consequências das ações e interpreta os personagens não jogadores (PNJs). Os aventureiros formam um grupo, exploram lugares, enfrentam adversários, resolvem problemas e procuram tesouros e conhecimentos. Ao longo das sessões, acumulam pontos de experiência e avançam de nível, adquirindo capacidades ligadas às suas classes.</p>
+            </div>
+          </article>
         </section>
         <section>
-            <h2>Mecânicas</h2>
-            <article>
-            <p>Antes de começar, cada jogador cria um personagem e registra seus dados na ficha. Os seis atributos são Força, Destreza, Constituição, Inteligência, Sabedoria e Carisma. Seus métodos de determinação variam entre edições. O jogador também escolhe uma espécie — denominada "raça" nas regras anteriores à revisão de 2024 —, uma classe, um alinhamento e características que compõem suas capacidades e sua história pessoal.</p>
-            <p>Durante a sessão, os jogadores descrevem as ações pretendidas, e o mestre apresenta os resultados. Ações triviais, como apanhar uma carta ou abrir uma porta destrancada, normalmente dispensam testes; escalar um precipício ou abrir uma fechadura pode exigir uma rolagem. O d20 é empregado em testes e ataques, enquanto dados de quatro, seis, oito, dez ou doze faces podem determinar o dano. Atributos, perícias e dificuldade influem no resultado. Testes de resistência permitem evitar ou reduzir consequências como armadilhas e efeitos mágicos; suas probabilidades dependem das características e da edição usada. Em testes de tarefa, o resultado, acrescido dos modificadores pertinentes, deve alcançar ou superar uma classe de dificuldade.</p>
-            </article>
-            <figure>
-            <img src="./img/Dice.png" alt="Dado" wdith="200px">
-            </figure>
+          <h2 class="mt-2 flex justify-center text-2xl font-extrabold tracking-widest text-white shadow-2xl">Mecânicas</h2>
+          <article>
+            <div class="m-4 rounded-lg border-6 border-gray-950/55 bg-gray-800 p-2 font-extralight text-white subpixel-antialiased shadow-2xl outline-2 outline-offset-2 outline-white">
+              <figure>
+                <img src="./img/Dice.png" alt="Dado" width="100px" class="float-left m-4 h-52 w-72 pb-12" />
+                <img src="./img/1d20.png" alt="d20" class="float-right h-25" />
+              </figure>
+              <p>Antes de começar, cada jogador cria um personagem e registra seus dados na ficha. Os seis atributos são Força, Destreza, Constituição, Inteligência, Sabedoria e Carisma. Seus métodos de determinação variam entre edições. O jogador também escolhe uma espécie — denominada "raça" nas regras anteriores à revisão de 2024 —, uma classe, um alinhamento e características que compõem suas capacidades e sua história pessoal.</p>
+              <p>Durante a sessão, os jogadores descrevem as ações pretendidas, e o mestre apresenta os resultados. Ações triviais, como apanhar uma carta ou abrir uma porta destrancada, normalmente dispensam testes; escalar um precipício ou abrir uma fechadura pode exigir uma rolagem. O d20 é empregado em testes e ataques, enquanto dados de quatro, seis, oito, dez ou doze faces podem determinar o dano. Atributos, perícias e dificuldade influem no resultado. Testes de resistência permitem evitar ou reduzir consequências como armadilhas e efeitos mágicos; suas probabilidades dependem das características e da edição usada. Em testes de tarefa, o resultado, acrescido dos modificadores pertinentes, deve alcançar ou superar uma classe de dificuldade.</p>
+            </div>
+          </article>
         </section>
-    </main>
-    <footer>
-    <h2>Rolagem de um dado 1d20:</h2>
-    <h1>Número sorteado: <span id="resultado"></span></h1>
-    <button onclick="gerarNumero()">Gerar Número</button>
-    <audio id="som">
-        <source src="./sound/dado.mp3" type="audio/mpeg">
-    </audio>
+      </main>
+      <div class="h-5 text-white" >
+      <hr/>
+      </div>
+      <div class="mb-6 ml-2 text-white">
+        <h2>1d20! Teste sua sorte!</h2>
+        <h1>Número sorteado: <span id="resultado"></span></h1>
+        <button onclick="gerarNumero()" class="mt-2 cursor-pointer rounded-full border bg-blue-500 pr-2 pl-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500">Gerar Número</button>
+        <audio id="som">
+          <source src="./sound/dado.mp3" type="audio/mpeg" />
+        </audio>
+      </div>
 
-
-    <p class="font-bold">oi</p>
-
-
-
-    
-    
-    <script src="./main.js/func.js">
-    </script>
-
-    
-    </footer>
-
-
-
-</body>
+      <footer>
+        <script src="./main.js/func.js"></script>
+        <div class="flex h-12 justify-end rounded-t-lg bg-black pt-3 pr-3 font-serif text-white outline-4">
+          <p>©Lucas Rafael</p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
